@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B23B2D4D-36E4-4DBD-889E-BB67675869C0}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adhan.Test", "src\Adhan.Test\Adhan.Test.csproj", "{0179B04D-DF47-4B34-AC40-C36AA9F7D629}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adhan.Samples", "src\Adhan.Samples\Adhan.Samples.csproj", "{8EF933CC-E213-4563-991F-124F532E92AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adhan.App.Sample.Android", "src\Adhan.App.Sample\Adhan.App.Sample.Android\Adhan.App.Sample.Android.csproj", "{43AF4C90-5949-470A-B98F-786DAC0FEAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adhan.App.Sample", "src\Adhan.App.Sample\Adhan.App.Sample\Adhan.App.Sample.csproj", "{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,36 @@ Global
 		{8EF933CC-E213-4563-991F-124F532E92AF}.Release|x64.Build.0 = Release|Any CPU
 		{8EF933CC-E213-4563-991F-124F532E92AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{8EF933CC-E213-4563-991F-124F532E92AF}.Release|x86.Build.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x64.Build.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x86.Build.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x64.ActiveCfg = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x64.Build.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x64.Deploy.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x86.ActiveCfg = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x86.Build.0 = Release|Any CPU
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2}.Release|x86.Deploy.0 = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|x64.Build.0 = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|x64.ActiveCfg = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|x64.Build.0 = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +99,8 @@ Global
 		{0BB66425-AFF0-4066-AF94-AB2735854E01} = {B23B2D4D-36E4-4DBD-889E-BB67675869C0}
 		{0179B04D-DF47-4B34-AC40-C36AA9F7D629} = {B23B2D4D-36E4-4DBD-889E-BB67675869C0}
 		{8EF933CC-E213-4563-991F-124F532E92AF} = {B23B2D4D-36E4-4DBD-889E-BB67675869C0}
+		{43AF4C90-5949-470A-B98F-786DAC0FEAF2} = {B23B2D4D-36E4-4DBD-889E-BB67675869C0}
+		{73E66904-24A7-466B-AD7F-1FF7F2DFC3EB} = {B23B2D4D-36E4-4DBD-889E-BB67675869C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFE1D13D-52DB-4523-B6B3-571BCA44E623}

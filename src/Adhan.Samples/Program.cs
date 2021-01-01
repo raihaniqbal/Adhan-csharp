@@ -1,8 +1,7 @@
-﻿using System;
-using System.Runtime.InteropServices;
-
-using Batoulapps.Adhan;
+﻿using Batoulapps.Adhan;
 using Batoulapps.Adhan.Internal;
+using System;
+using TimeZoneConverter;
 
 namespace Adhan.Samples
 {
@@ -10,14 +9,13 @@ namespace Adhan.Samples
     {
         static void Main(string[] args)
         {
-            Coordinates coordinates = new Coordinates(43.61, -79.70);
-            DateComponents dateComponents = DateComponents.From(DateTime.Now);
+            Coordinates coordinates = new Coordinates(-33.922016, 150.923903);
+            DateComponents dateComponents = DateComponents.From(new DateTime(2021, 4, 4));
             CalculationParameters parameters = CalculationMethod.NORTH_AMERICA.GetParameters();
 
-            string timeZone = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) ?
-                "Eastern Standard Time" : "America/New_York";
+            string timeZone = "Australia/Sydney";
 
-            TimeZoneInfo easternTime = TimeZoneInfo.FindSystemTimeZoneById(timeZone);
+            TimeZoneInfo easternTime = TZConvert.GetTimeZoneInfo(timeZone);
 
             PrayerTimes prayerTimes = new PrayerTimes(coordinates, dateComponents, parameters);
             Console.WriteLine("Fajr   : " + TimeZoneInfo.ConvertTimeFromUtc(prayerTimes.Fajr, easternTime));
